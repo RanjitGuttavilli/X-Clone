@@ -1,0 +1,512 @@
+body{
+    background-color: black;
+    color: rgb(235, 235, 235);
+    font-family: Roboto;
+    margin: 0;
+    height: 2000px;
+}
+.page{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 4px;
+}
+.logo{
+    margin-left: 15px;
+    margin-bottom: 11px;
+    margin-top: 15px;
+}
+.x-logo{
+    width:27px
+}
+.x-home{
+    position: relative;
+}
+.point{
+    position: absolute;
+    background-color: rgb(4, 190, 223);
+    width: 7px;
+    height: 7px;
+    left: 32px;
+    border-radius: 20px;
+    top: 9px;
+    font-weight: bold;
+}
+
+.icon{
+    width: 36px;
+    margin-right: 14px;
+}
+.more{
+    width: 30px;
+    margin-left: 2px;
+}
+.twitter-sidebar{
+    top: 0;
+   position: fixed;
+   left: 95px;
+   bottom: 0;
+   font-weight:410;
+   width: 260px;
+   font-size: 20px;
+   border-right: 1px solid rgba(255, 255, 255, 0.2);
+   z-index: 200;
+}
+
+.X{
+    width: 24px;
+    padding: 4px;
+    margin-left: 4px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    padding:7px 10px ;
+}
+.container{
+    display: flex;
+}
+.container:hover{
+    cursor: pointer;
+
+}
+.flex:hover{
+    cursor: pointer;
+    background-color: rgba(129, 129, 129, 0.2);
+    border-radius: 20px;
+}
+
+.post{
+    background-color: rgb(55, 165, 255);
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 40px;
+    margin-top: 12px;
+    width: 230px;
+}
+.id{
+    font-size: 12px;
+    color: gray;
+}
+.pic-container{
+    margin-right: 14px;
+}
+.info{
+    text-align: left;
+    margin-right: 60px;
+}
+.name{
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.account{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 7px;
+    width: 240px;
+}
+.account:hover{
+    cursor: pointer;
+    background-color: rgba(129, 129, 129, 0.2);
+    border-radius: 40px;
+}
+.profile{
+    width: 44px;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+.section{
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    width: 575px;
+    justify-content: space-around;
+    top: 0;
+    left: 355px;
+    z-index: 100;
+}
+.underscore{
+    width: 55px;
+    height: 4px;
+    border-radius: 25px;
+    background-color: rgb(29, 146, 255);
+    margin-bottom: 2px;
+}
+.for-you{
+    padding-top: 17px;
+    margin-bottom: 10px;
+}
+.bar{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.following{
+    padding-top: 17px;
+    color: rgb(109, 108, 108);
+}
+.bar:hover, .following:hover{
+    background-color: rgba(129, 129, 129, 0.2);
+    cursor: pointer;
+}
+main{
+  width: 574px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 356px;
+}
+
+.matter{
+border-bottom: 1px solid rgba(88, 88, 88, 0.664);
+padding: 13px 0px 0px 17px;
+}
+.message{
+    height: 55px;
+    display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+}
+.tweet{
+    background:none;
+    color:rgba(226, 225, 225, 0.918);
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-left: 7px;
+    font-family: roboto;
+    width: 514px;
+}
+.tweet-profile{
+    width: 42px;
+    border-radius: 25px;
+}
+
+.globe-icon{
+    width: 16px;
+    padding-right: 4px;
+}
+  .icons{
+    display: flex;
+  width: 450px;
+  flex-direction: row;
+  padding: 10px 20px 13px 35px;
+  padding-left: 55px;
+  }
+  .option-icons{
+    width: 22px;
+    padding-right: 15px;
+  }
+  .privacy{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 40px;
+    width: 460px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 7px;
+    font-weight: 500;
+  color: rgb(79, 161, 255);
+    border-bottom: 1px solid rgba(100, 100, 100, 0.548);
+  }
+  hr{
+    width: 450px;
+    color: rgba(128, 128, 128, 0.432);
+    margin-top: 15px;
+  }
+  .selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4px;
+  }
+  .submit{
+    background-color: rgb(55, 165, 255);
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 40px;
+  width: 70px;
+  height: 34px;
+  margin-right: 25px;
+  opacity: 0.5;
+  }
+
+  .show-posts{
+    display: flex;
+  justify-content: center;
+  padding: 14px 0px 14px 0px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.548);
+  font-family: arial;
+  color: rgb(79, 161, 255);
+  
+  }
+.accounts-posts-5{
+  height: 425px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.548);
+}
+  .accounts-posts{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 444px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.548);
+  }
+  .accounts-posts-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 590px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.548);
+  }
+  .accounts-posts-3{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 510px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.548);
+  }
+  .accounts-posts-4{
+    height: 425px;
+  }
+  .account-post{
+    display: flex;
+margin: 15px 0 0 15px;
+  }
+  .account-info{
+    margin-left: 7px;
+   height: 22px;
+  }
+  .account-pic{
+    width: 40px;
+    border-radius: 30px;
+  }
+  .verified{
+    width: 22px;
+  }
+  .account-name{
+    display: flex;
+   font-weight: bold;
+
+  }
+  .text-message{
+    white-space: pre-line;
+position: relative;
+top: -20px;
+color: rgb(219, 219, 219);
+  }
+  .photo-gallery{
+    display: flex;
+    column-gap: 2px;
+    height: 325px;
+    width: 485px;
+    border-radius: 20px;
+    border: 1px solid rgba(77, 77, 77, 0.884);
+    overflow: hidden;
+    position: relative;
+  top: -12px;
+  }
+  .photo-gallery:hover{
+    cursor: pointer;
+  }
+
+.column .photo .account-1{
+  width: 485px;
+  height: 325px;
+  object-fit: cover;
+}
+.column .photo .account-2{
+  width: 300px;
+  height: 330px;
+object-fit: cover;
+}
+.column-2 .photo img{
+    width: 195px;
+    height: 162px;
+    object-fit: cover;
+}
+.column-2 .photo .car{
+  width: 195px;
+  height: 325px;
+  object-fit: cover;
+}
+.reactions{
+  width: 487px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(150, 150, 150);
+}
+.section-1{
+    display: flex;
+    width: 365px;
+  justify-content: space-between;
+}
+.comment{
+    display: flex;
+    font-size: 12px;
+    font-family: arial;
+    align-items: center;
+}
+.comment img{
+width: 22px;
+padding-right: 4px;
+}
+.right-nav{
+  padding-left: 40px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  width: 360px;
+  margin-left: 930px;
+  top: 15px;
+  bottom: 0px;
+  padding-bottom: 15px;
+  position: fixed;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.right-nav:hover{
+
+}
+.search-img{
+  position: relative;
+  
+}
+.search{
+  display: flex;
+  height: 45px;
+}
+.search-ac{
+  color:rgba(226, 225, 225, 0.918);
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+  outline: none;
+  font-family: roboto;
+  padding-left: 50px;
+  background: url(Icons/X-search.svg) no-repeat left rgba(255, 255, 255, 0.15);
+  background-position: 18px;
+  font-size: 16px;
+}
+
+.subscription{
+  border: 1px solid red;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ads{
+  font-size: 24px;
+  font-weight: bold;
+  font-family: roboto;
+}
+.x-sub{
+margin: 7px 0px 5px 0px;
+font-size: 14px;
+}
+.subs-btn{
+  background-color: rgb(55, 165, 255);
+  border: none;
+  color: white;
+  margin-top: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.whatshappening{
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
+.whats-text{
+  margin: 15px 10px 4px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.live-news{
+  display: flex;
+  padding: 15px;
+}
+.live-img{
+  display: flex;
+ width: 80px;
+overflow: hidden;
+border-radius: 10px;
+margin: 0px 10px 0px 0px;
+}
+.live-thumb{
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  height: 80px;
+  overflow: hidden;
+}
+.live-title{
+  font-weight: bold;
+}
+.live-content{
+  padding: 10px 15px;
+}
+
+.live-news:hover{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.live-content:hover, .show-more:hover{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.online{
+  display: flex;
+  align-items: center;
+}
+.live-name{
+  font-size: 12px;
+  margin-right: 4px;
+  color: gray;
+}
+.live-trend{
+  font-size: 12px;
+  margin-right: 4px;
+  margin-top: 2px;
+  justify-content: space-between;
+  color: gray;
+}
+.live-logo{
+  font-size: 13px;
+  font-weight: bold;
+  background-color: rgb(255, 34, 137);
+  padding: 3px ;
+  border-radius: 4px;
+}
+.trend-option{
+ width: 18px;
+}
+
+.trending-details{
+  display: flex;
+}
+.blue{
+  color: rgb(0, 162, 255);
+}
+.show-more{
+  padding: 15px;
+}
